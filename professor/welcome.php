@@ -56,14 +56,12 @@
         <a href="solicitacoes_troca_periodo.php" class="option">Solicitações de troca de período</a>
         <a href="solicitar_documentos.php" class="option">Solicitar documentos</a>
         <a href="registrar_professor.php" class="option">Registrar professor</a>
-        <a href="#" class="option" id="calendario">Calendário acadêmico</a>
+        <a href="#" class="option" id="horas">Horários de aula</a>
     </div>
 
     <script>
-        // Adiciona um evento de clique ao botão "Calendário acadêmico"
-        document.getElementById("calendario").addEventListener("click", function() {
-            // Abre o link desejado em uma nova janela
-            window.open("https://ifrs.edu.br/bento/wp-content/uploads/sites/13/2023/11/ANEXO-DA-RESOLUCAO-42-2023_Calendario-Academico-2024_Campus-Bento-Goncalves.pdf");
+        document.getElementById("horas").addEventListener("click", function() {
+            window.open("https://drive.google.com/file/d/1tuXOMSHmHeuW8E6IaHFJ82iIzLyH9jkO/view");
         });
     </script>
 </body>
